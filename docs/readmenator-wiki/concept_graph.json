@@ -1,0 +1,58 @@
+{
+  "concepts": [
+    {
+      "name": "adn",
+      "files": [
+        "main2.py",
+        "main3.py"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "base4",
+      "files": [
+        "main.py",
+        "main2.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "binario",
+      "files": [
+        "main2.py",
+        "main3.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "codigo",
+      "files": [
+        "main2.py",
+        "main3.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "maquina",
+      "files": [
+        "main2.py",
+        "main3.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "relations": [],
+  "dialectic": [
+    "Thesis: `adn` centralizes 2 files; Antithesis: `binario` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `adn` centralizes 2 files; Antithesis: `codigo` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `adn` centralizes 2 files; Antithesis: `maquina` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `binario` centralizes 2 files; Antithesis: `codigo` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `binario` centralizes 2 files; Antithesis: `maquina` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `codigo` centralizes 2 files; Antithesis: `maquina` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?"
+  ]
+}
