@@ -6,6 +6,7 @@
 
 ## External Imports
 
-- `main.py` -> matplotlib.pyplot, pandas
-- `main2.py` -> ctypes
-- `main3.py` -> PIL
+- `main.py` -> `matplotlib.pyplot`
+- `main.py` -> `pandas`
+- `main2.py` -> `ctypes`
+- `main3.py` -> `PIL`
